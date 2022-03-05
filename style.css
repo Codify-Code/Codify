@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+::selection {
+  color: color;
+  background: #f1f1f1;
+}
+
+::placeholder {
+  text-align: center;
+}
+:-ms-input-placeholder {
+  text-align: center; /* for IE 10-11 */
+}
+::-webkit-input-placeholder {
+  text-align: center; /* for IE Edge */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f2f2f2 !important;
+  overflow: hidden;
+}
+
+.wrapper {
+  background: #f2f2f2;
+  max-width: 500px;
+  width: 500px;
+  height: fit-content;
+  /*border-radius: 10px;*/
+  /*box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.1);*/
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.wrapper .progress {
+  position: fixed;
+  margin-bottom: 0px;
+  background: #e9e9e9;
+  max-width: 500px;
+  width: 500px;
+  max-height: 2.5px;
+  height: 2.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .progressLine {
+  position: fixed;
+  margin-bottom: 0px;
+  background:lightgreen;
+  max-width: 500px;
+  width: 0px;
+  max-height: 2.5px;
+  height: 2.5px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.wrapper .textDark {
+  position: relative;
+  margin-top: 110.5px;
+  font-size: 17.5px;
+  font-family: Poppins;
+  font-weight: normal;
+  color: #555;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .textLight {
+  position: relative;
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: normal;
+  color: #999;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .svg {
+  background-color: aquamarine;
+  max-width: 150px;
+  max-height: 0;
+  width: 150px;
+  height: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+.wrapper .svg svg {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 125px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footer {
+  position: absolute;
+  bottom: 50px;
+  background: #f2f2f2;
+  max-width: 500px;
+  width: 100%;
+  max-height: 50px;
+  height: 50px;
+  /*box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.1);*/
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.footer .buttonField {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+.footer .buttonField button {
+  position: relative;
+  display: flex;
+  left: 2.5px;
+  padding: 8.5px 20px;
+  background: #fff; /*#383bffc2;*/
+  outline: none;
+  color: #555;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: 0.4s;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+.footer .buttonField button:hover {
+  background: #fafafa; /*#383bffc2;*/
+
+  color: #555;
+  text-decoration: none;
+}
